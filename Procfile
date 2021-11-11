@@ -1,1 +1,1 @@
-web: gunicorn listnr:listnr.py
+web: gunicorn listnr:__main__
