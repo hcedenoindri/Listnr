@@ -1,0 +1,225 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background: #32213a;
+    color: white;
+    font-family:"Trebuchet MS", sans-serif;
+    font-size:18px;
+    margin:auto;
+    max-width:45rem;
+}
+
+/* Page titles */
+h1 {
+    color: #75dddd;
+    font-style:bold;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #75dddd;
+    margin: auto;
+    margin-top: 20px !important;
+}
+
+h3 {
+    color: #75dddd;
+    margin: auto;
+    margin-top: 20px !important;
+    margin-bottom: 0%;
+}
+
+/* Nav bar */
+div.navigation {
+    font-size:75%;
+    padding: 0%;
+    margin-bottom:10px;
+    margin-top:20px;
+    align-self: center;
+    text-align: center;
+}
+
+span.button {
+    display: inline-block !important;
+    margin: auto !important;
+    width: 20% !important;
+    text-align: center;
+}
+
+span.button a {
+    padding: 5px 30px 5px 30px !important;
+    background-color: #fcbafa;
+    color: #32213a;
+    font-weight: bold;
+    border-radius: 20%;
+    border-style: groove !important;
+    text-decoration: none;
+}
+
+span.button a:hover {
+    background-color: #ffe2fe;
+}
+
+/* Indvidual posts */
+div.post {
+    line-height:140%;
+    margin-left:18px;
+    margin-right:18px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+div.post-comment {
+    margin-top: 5px;
+}
+
+div.post-comment, div.post-comment-metadata {
+    position: relative;
+    left: 10%;
+}
+
+/* Info about the post */
+div.post-metadata, div.post-comment-metadata {
+    color:#939196;
+    font-size:70%;
+    line-height:150%;
+}
+
+span.comment {
+    color:#75dddd;
+    text-decoration: none;
+}
+
+span.comment:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+form#comment {
+    text-align: center;
+}
+
+textarea, input#author {
+    font-family:"Trebuchet MS", sans-serif;
+    font-size:15px;
+    padding:5px;
+    background-color: #683d7c;
+    color: white;
+    border-style:groove;
+    border-radius: 5%;
+    margin-top: 12px;
+}
+
+/* Form start */
+div.compose-form {
+    margin-top:15px;
+    color: #d3c1d2;
+}
+
+div.compose-form div {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+div.compose-form input {
+    font-family:"Trebuchet MS", sans-serif;
+    font-size:15px;
+    padding:5px;
+    background-color: #683d7c;
+    color: white;
+    border-style:groove;
+    border-radius: 15%;
+}
+
+::placeholder {
+    color: #ffe2fe !important;
+    opacity: 0.5;
+}
+
+label {
+    display:block;
+    color: #75dddd !important;
+}
+
+.submit {
+    background-color: #fcbafa !important;
+    color: #32213a !important;
+    position: relative;
+    left:46%;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    border-radius: 15%;
+}
+
+.submit:hover {
+    background-color: #ffe2fe !important;
+}
+
+
+/* Posts votes icons and spans */
+span.post-votes {
+    background:#ffe2fe;
+    color:#32213a;
+    display:inline-block;
+    font-size:80%;
+    font-weight:bold;
+    min-width:30px;
+    padding-left:3px;
+    padding-right:3px;
+    text-align:center;
+    vertical-align:middle;
+    border-radius: 50%;
+}
+
+span.post-content a{
+    color: white !important;
+    margin-left:4px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+span.post-content a:hover {
+    text-decoration: underline;
+}
+
+a.post-agree, a.post-disagree {
+    display:inline-block;
+    font-family:monospace;
+    font-size:110%;
+    font-weight:bold;
+    padding-left:3px;
+    padding-right:3px;
+    vertical-align:middle;
+}
+
+a.post-agree {
+    background-color: #61b8b8;
+    text-decoration:none;
+    padding: 0.8% 0.8% 0.05% 0.8%;
+    border-radius: 50%;
+}
+
+a.post-disagree {
+    background-color: #da81d5; 
+    text-decoration:none;
+    padding: 0.75% 0.75% 0% 0.75%;
+    border-radius: 50%;
+}
+
+a.post-agree:hover {
+    background:#75dddd;
+}
+
+a.post-disagree:hover {
+    background:#ee99ea;
+}
+
+/* About page */
+p.about {
+    font-size: 16px;
+}
+
