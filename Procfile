@@ -1,1 +1,1 @@
-web: gunicorn listnr:__main__
+web: gunicorn wsgi.py:app
