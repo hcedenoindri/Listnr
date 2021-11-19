@@ -1,6 +1,7 @@
 # Listnr
 
 Spring 2021, MCS 275 Project 4 by Hector Cedeno Indriago
+Link: https://listnr.herokuapp.com/home/
 
 ## Assignment
 
@@ -66,8 +67,8 @@ The icons for upvoting and downvoting came from a Google search on upvote icons.
 The website is the following: https://dribbble.com/shots/6329261-User-Interface-2-2
 
 I referenced w3schools while writing HTML and CSS, namely: HTML Input Types, HTML
-DOM parentElement Property, HTML size Attribute, CSS Height and Width, HTML <input>
-Tag, HTML <textarea> Tag, CSS Layout - Horizontal & Vertical Align, and HTML <button> Tag.
+DOM parentElement Property, HTML size Attribute, CSS Height and Width, HTML input
+Tag, HTML textarea Tag, CSS Layout - Horizontal & Vertical Align, and HTML button Tag.
 
 I referenced assignments of my own authoring for a different course, namely IT202,
 when writing the JavaScript.
