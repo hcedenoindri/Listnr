@@ -21,7 +21,7 @@ represent innappropriate posts or bad music pieces.
 ## How to test
 
 *** The database can be resetted at any time using the app route
-    /reset/ and the given port by Flask. E.g: http://127.0.0.1:5000/reset/
+    /reset/ and the given port/domain. E.g: http://127.0.0.1:5000/reset/
 *** An existing .db file is not needed, the app will create a new one if
     necessary. 
 *** The app can be tested intuitively too, for those who can't afford 
