@@ -2,7 +2,7 @@
 
 Spring 2021, MCS 275 Project 4 by Hector Cedeno Indriago.
 
-Link: https://listnr.herokuapp.com/home/
+Link: Currently not deployed.
 
 ## Assignment
 
